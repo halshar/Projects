@@ -54,7 +54,7 @@ def check_result(player, computer, PLAYER_NAME):
 def ask_play_again(PLAYER_NAME):
     print()
     print(f"{PLAYER_NAME} do want to play again: y/n")
-    again = input("Eter your choice: ")
+    again = input("Enter your choice: ")
     return again in ('y')
 
 
